@@ -10,7 +10,7 @@ public class Animal {
     public Animal() {
         count++;
     }
-
+//    здесь я составила условие таким образом, что для всеех котов всегда будет выведено, что они не умеют плавать
     public void swim(int l) {
         if (type == "cat") {
             System.out.println("Коты не умеют плавать");
