@@ -3,7 +3,7 @@ package lesson4;
 //сканер для красоты, чтобы вводить товары в консоль
 import java.util.Scanner;
 
-public class Payment {            //внешний класс и
+public class Payment {            //внешний класс
     private String name;
     private Product[] prodArray;
     private int cost;
