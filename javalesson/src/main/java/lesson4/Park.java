@@ -4,7 +4,7 @@ public class Park {          //внешний класс
     private String name;
     private Attractions[] attrArray;
 
-    public class Attractions {                                       //внутрений класс
+    public static class Attractions {                                       //внутрений класс
         private String type;
         private String time;
         private int cost;

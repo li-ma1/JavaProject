@@ -16,7 +16,7 @@ public class AppCatPlate {
                     System.out.println("Добавьте в миску корм в граммах: ");
                     plate.increaseFood();
                 }
-                // иначе кот ест, если еды хватает - выводим, что сы, не хватает - что не стал есть
+                // иначе кот ест, если еды хватает - выводим, что сыт, не хватает - что не стал есть
                 cat[i].eat(plate);
                 if (cat[i].itFullness() == true) {
                     System.out.println("Кот " + cat[i].getName() +
