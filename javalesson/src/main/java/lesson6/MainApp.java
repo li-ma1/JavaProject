@@ -6,7 +6,7 @@ public class MainApp {
                 {"1", "2", "8", "0"}};
         try {
             try {   // выполняем метод, если ничего не валится, печатаем результат метода - сумму всех элементов массива
-                int result = method(arr);
+                int result = count(arr);
                 System.out.println(result);
             } catch (MyArraySizeException e) { // если упало первое исключение, печатаем эту фразу
                 System.out.println("Размер массива неверный!");
@@ -16,7 +16,7 @@ public class MainApp {
             System.out.println("Ошибка в ячейке: [" + e.i + "," + e.j + "]");
         }
     }
-    public static int method(String[][] arr) throws MyArraySizeException, MyArrayDataException {
+    public static int count(String[][] arr) throws MyArraySizeException, MyArrayDataException {
         int count = 0;
         for (int i = 0; i < arr.length; i++) { //если длина массива не 4, выполняем первое исключение
             if (arr[i].length != 4) {
