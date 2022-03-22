@@ -3,7 +3,7 @@ package lesson7;
 import java.io.*;
 import java.util.Arrays;
 // этот метод я взяла из методички и записала так, как нужно было по условию, через  String[] header, int[][] data,
-// но этип способом получается корявый csv файл - записи не в ячейках, а массивом
+// но этим способом получается корявый csv файл - записи не в ячейках, а массивом
 public class LoadAndReadCSV {
     public static void main(String[] args) {
         try (BufferedWriter writer = new BufferedWriter(new
